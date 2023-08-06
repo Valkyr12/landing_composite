@@ -327,7 +327,7 @@ main .preview_images img {
     box-shadow: 0 0 15px 15px rgba(0, 0, 0, 0.07);
 }
 .feedback button {
-    width: 8.75rem;
+    min-width: 8.75rem;
     height: 8.75rem;
     border-radius: 50%;
     background-color: var(--primary-color);
