@@ -294,10 +294,23 @@ main .preview_images img {
 /* End FAQ section */
 
 /* Feedback section */
+.feedback {
+    padding-bottom: 9.375rem;
+}
 .feedback div,
 .feedback label,
 .feedback input {
     width: 100%;
+}
+.feedback .title {
+    font-size: 5.625rem;
+    margin-bottom: 2rem;
+}
+.feedback .description {
+    font-size: 3.75rem;
+    line-height: 1.5;
+    font-weight: 400;
+    padding-bottom: 5rem;
 }
 .feedback input {
     border: 0.3125rem solid var(--primary-color);
@@ -404,6 +417,9 @@ footer div p:first-child {
     .step .right-part,
     .step .left-part {
         flex: 1;
+    }
+    .feedback .title {
+        font-size: 5rem;
     }
     .feedback input {
         font-size: 1rem;
